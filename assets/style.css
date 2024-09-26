@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -7,7 +7,7 @@
     font-size: 20px;
 }
 
-.diva{
+.diva {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,13 +15,15 @@
     margin: 50px;
 }
 
-a{
+a {
     color: black;
     font-size: 30px;
     padding-bottom: 10px;
 }
 
-.num1, .num2, .num3{
+.num1,
+.num2,
+.num3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,11 +31,23 @@ a{
     gap: 20px;
 }
 
-h2{
+h2 {
     font-size: 40px;
 }
 
-p{
+p {
     font-size: 25px;
     color: chocolate;
+}
+
+.pr2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px;
+    gap: 5px;
+}
+
+.pr2p{
+    margin-top: 50px;
 }
